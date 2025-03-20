@@ -31,3 +31,36 @@ body{
     font-weight: bold;
     font-size: 25px;
 }
+
+
+.separadorAmarelo{
+    padding: 10px;
+    background-color: rgb(237, 237, 33);
+}
+
+
+.barraBotoes{
+    background-color: rgb(212, 212, 212);
+    display: flex;
+    padding: 5px;
+}
+.barraBotoes button{
+    display: flex;
+    margin-left: 5px;
+    align-items: center;
+    border-radius: 0;
+    border: solid gray 1px;
+    padding: 2px 5px;
+}
+.barraBotoes button img{
+    height: 15px;    
+    margin: 0 3px;
+}
+.barraBotoes button p{
+    padding: 0;   
+}
+.separador{
+    padding: 1px;
+    background-color: rgb(170, 170, 170);
+    margin-left: 5px;
+}

@@ -132,8 +132,37 @@ main{
 #overview{
     background-color: white;
     padding-top: 20px;
+    
 }
 
 #overview p{
     margin: 0;
+}
+
+.botoesDireito{
+    display: flex;
+    margin-left: auto;
+}
+
+#attributes p{
+    margin: 0;
+}
+
+.formularioAtributos{
+    display: flex;
+}
+
+.atributo{
+    display: flex;
+    
+}
+.formularioEsquerdo{
+    margin-left: auto;
+    
+}
+.formularioDireito{
+    margin-left: auto;
+}
+.atributo p{
+    margin-right: 10px;
 }

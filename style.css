@@ -185,3 +185,51 @@ main{
 .valorDireita{
     text-align: right;
 }
+
+
+
+#bemVindo{
+    background-color: rgb(217,233,253);
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    border-radius: 20px;
+    margin: 15px;
+}
+
+#textosBoasVindas{
+    width: 200px;
+}
+.textoBoasVindas{
+    color: blue;
+    font-size: 25px;
+    font-weight: bold;
+}
+.circuloSeta{
+    background-color: white;
+    align-items: center;
+    
+    padding: 0;
+    border-radius: 15px;
+
+}
+.circuloSeta img{
+    height: 20px;
+    margin: 2px;
+}
+
+.botaoAzul{
+    background-color: blue;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 15px;
+    margin: 5px;
+    
+}
+
+.botaoAzul p{
+    color: white;
+    margin: 6px;
+    font-size: 15px;
+}

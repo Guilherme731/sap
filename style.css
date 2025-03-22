@@ -166,6 +166,7 @@ main{
     display: flex;
     justify-content: flex-end;
     padding: 7px;
+    align-items: center;
 }
 .atributo p{
     margin-right: 10px;
@@ -174,4 +175,13 @@ main{
     border: solid rgb(170, 170, 170) 1px;
     width: 350px;
     margin-left: 10px;
+    height: 20px;
+}
+
+.atributo img{
+    margin-left: auto;
+}
+
+.valorDireita{
+    text-align: right;
 }

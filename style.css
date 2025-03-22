@@ -72,9 +72,8 @@ main{
 
 
 #navigation{
-    width: 300px;
+    width: 400px;
     background-color: white;
-    height: 100%;
     margin-right: 10px;
 }
 
@@ -111,7 +110,7 @@ main{
 .tabelaConteudo{
     border: solid rgb(170, 170, 170) 1px;
     border-collapse: collapse;
-    width: 120%;
+    width: 110%;
     text-align: left;
 }
 .tabelaConteudo td{
@@ -130,9 +129,9 @@ main{
 }
 
 #overview{
-    background-color: white;
+    background-color: rgb(240, 240, 240);
     padding-top: 20px;
-    
+    padding-left: 5px;
 }
 
 #overview p{
@@ -144,17 +143,16 @@ main{
     margin-left: auto;
 }
 
+#attributes{
+    margin-top: 10px;
+    background-color: rgb(240, 240, 240);
+}
 #attributes p{
     margin: 0;
 }
 
 .formularioAtributos{
     display: flex;
-}
-
-.atributo{
-    display: flex;
-    
 }
 .formularioEsquerdo{
     margin-left: auto;
@@ -163,6 +161,17 @@ main{
 .formularioDireito{
     margin-left: auto;
 }
+
+.atributo{
+    display: flex;
+    justify-content: flex-end;
+    padding: 7px;
+}
 .atributo p{
     margin-right: 10px;
+}
+.atributo input{
+    border: solid rgb(170, 170, 170) 1px;
+    width: 350px;
+    margin-left: 10px;
 }
